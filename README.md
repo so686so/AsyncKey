@@ -8,7 +8,7 @@
 ## Environment
 - It works ``Linux``
 - ``C++``
-- <u>No library dependencies</u>
+- **No library dependencies**
 
 
 <br>
@@ -16,7 +16,7 @@
 ## HOW TO USE
 
 ```cpp
-#include "AsyncKey.hpp
+#include "AsyncKey.hpp"
 ```
 
 <br>
