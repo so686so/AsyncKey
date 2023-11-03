@@ -1,6 +1,6 @@
-# AsyncKey
+# LinuxDirectKey
 
-- ### Linux Asynchronous keystroke function using C++
+- ### Linux Direct keystroke function using C++
 - ### Header-only file
 
 <br>
@@ -16,7 +16,7 @@
 ## HOW TO USE
 
 ```cpp
-#include "AsyncKey.hpp"
+#include "DirectKey.hpp"
 ```
 
 <br>
@@ -24,20 +24,14 @@
 ## Example
 
 ```cpp
-#include "AsyncKey.hpp"
+#include "DirectKey.hpp"
 
 using namespace AsyncKey;
 
 int main()
 {
-    // Key class initialize.
-    Key::init();
-
-    // Reading key values asynchronously.
-    KeyBoard input = Key::readAsyncKey();
-
-    // Key class deinitialize.
-    Key::deinit();
+    // Reading key values direct.
+    KeyBoard input = Key::GetKey();
 
     return 0;
 }
