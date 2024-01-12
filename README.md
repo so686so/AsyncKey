@@ -1,7 +1,6 @@
 # LinuxDirectKey
 
 - ### Linux Direct keystroke function using C++
-- ### Header-only file
 
 <br>
 
@@ -13,20 +12,16 @@
 
 <br>
 
-## HOW TO USE
-
-```cpp
-#include "DirectKey.hpp"
-```
-
-<br>
-
 ## Example
 
 ```cpp
-#include "DirectKey.hpp"
+/* =========================================================== *
+ * COMPILE : g++ -o runFile main.cpp DirectKey.h DirectKey.cpp *
+ * =========================================================== */
 
-using namespace AsyncKey;
+#include "DirectKey.h"
+
+using namespace DirectKey;
 
 int main()
 {
