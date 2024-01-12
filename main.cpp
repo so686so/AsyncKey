@@ -9,6 +9,10 @@ int main( void )
 {
     Key::SetReadKeyAwaitTimeout( KeyDelay::FPS_60 );
 
+    printf("==================================\n");
+    printf(" PRESS Any Key. (EXIT = ESC)\n");
+    printf("==================================\n");
+
     bool isQuit = false;
     while( !isQuit ) {
 
